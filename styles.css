@@ -92,3 +92,56 @@ body {
       line-height: 1.5;
       margin: 20px 0;
     }
+/* Add your styles here */
+
+/* Default styles for desktop (already in your inline styles) */
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  body {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+  }
+
+  .main {
+    width: 100%;
+    left: 0;
+  }
+
+  .background {
+    width: 100%;
+    height: auto;
+  }
+
+  .card {
+    width: 90%;
+    left: 5%;
+  }
+
+  .text-content, .text-content-alt {
+    width: 90%;
+    left: 5%;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .banner {
+    width: 90%;
+    left: 5%;
+  }
+
+  .wealth-text {
+    width: 90%;
+    left: 5%;
+    font-size: 16px;
+  }
+
+  .text-content, .text-content-alt {
+    font-size: 14px;
+  }
