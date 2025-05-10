@@ -1,0 +1,94 @@
+/* CSS Document */
+/* Base Page */
+body {
+  margin: 0;
+  padding: 0;
+  background: #FFFFFF;
+  width: 1280px;
+  height: 832px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Header Background */
+.header-background {
+  position: absolute;
+  width: 1380px;
+  height: 382px;
+  top: 0;
+  left: 0;
+  right: 1000px;
+  background: #FFFFFF;
+  border-bottom: 8px solid #999999;
+}
+
+/* Huckleberry Title */
+.huckleberry {
+  position: absolute;
+  width: 180px;
+  height: 38px;
+  left: 264px;
+  top: 96px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+  color: #000000;
+}
+
+/* Tagline */
+.avant-garde {
+  position: absolute;
+  width: 415px;
+  height: 60px;
+  left: 264px;
+  top: 182px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+/* Emphasized Words */
+.avant-garde span {
+  color: #008000;
+  font-weight: 700;
+}
+
+/* Subtext */
+.better-way {
+  position: absolute;
+  width: 415px;
+  height: 60px;
+  left: 264px;
+  top: 258px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #000000;
+}
+
+    .card {
+      background: #fff;
+      color: #000;
+      margin: 20px auto;
+      padding: 30px;
+      border-right: 50px;
+      border-left: 50px;
+      max-width: 800px;
+      border-bottom: 8px solid #999;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .banner {
+      background: #FFBF00;
+      color: #000;
+      padding: 10px;
+      font-weight: 800;
+      border-bottom: 8px solid #CC9900;
+      margin-bottom: 20px;
+    }
+
+    .text-content {
+      font-size: 20px;
+      line-height: 1.5;
+      margin: 20px 0;
+    }
